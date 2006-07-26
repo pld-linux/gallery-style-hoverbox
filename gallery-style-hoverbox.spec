@@ -2,11 +2,12 @@
 Summary:	Hoverbox css style for Gallery2
 Name:		gallery-style-%{_style}
 Version:	1
-Release:	0.1
+Release:	0.2
 License:	GPL
 Group:		Applications/Publishing
-Source0:	http://sonspring.com/files/%{_style}.zip
-# Source0-md5:	e4ae8d050a8baa3205eca06c82cd0c0d
+#Source0:	http://sonspring.com/files/%{_style}.zip
+Source0:	http://gallery.menalto.com/files/g2_carbon_%{_style}.zip
+# Source0-md5:	1a933624ddfd8b3b1af74859e93138d6
 URL:		http://sonspring.com/journal/hoverbox-image-gallery
 BuildRequires:	rpmbuild(macros) >= 1.268
 BuildRequires:	unzip
@@ -27,7 +28,8 @@ Super light-weight (8kb) roll-over photo gallery that uses nothing but CSS.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_appdir}/%{_style}
 
-install css/*.css $RPM_BUILD_ROOT%{_appdir}/%{_style}
+install *.css $RPM_BUILD_ROOT%{_appdir}/%{_style}
+install *.gif $RPM_BUILD_ROOT%{_appdir}/%{_style}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -36,3 +38,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %dir %{_appdir}/%{_style}
 %{_appdir}/%{_style}/*.css
+%{_appdir}/%{_style}/*.gif
