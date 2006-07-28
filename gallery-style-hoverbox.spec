@@ -3,7 +3,7 @@ Summary:	Hoverbox CSS style for Gallery2
 Summary(pl):	Styl CSS Hoverbox dla Gallery2
 Name:		gallery-style-%{_style}
 Version:	1
-Release:	0.2
+Release:	1
 License:	GPL
 Group:		Applications/Publishing
 #Source0:	http://sonspring.com/files/%{_style}.zip
