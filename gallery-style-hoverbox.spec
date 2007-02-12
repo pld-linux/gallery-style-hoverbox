@@ -1,6 +1,6 @@
 %define		_style		hoverbox
 Summary:	Hoverbox CSS style for Gallery2
-Summary(pl.UTF-8):   Styl CSS Hoverbox dla Gallery2
+Summary(pl.UTF-8):	Styl CSS Hoverbox dla Gallery2
 Name:		gallery-style-%{_style}
 Version:	1
 Release:	1
