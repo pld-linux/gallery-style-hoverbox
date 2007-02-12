@@ -1,6 +1,6 @@
 %define		_style		hoverbox
 Summary:	Hoverbox CSS style for Gallery2
-Summary(pl):	Styl CSS Hoverbox dla Gallery2
+Summary(pl.UTF-8):   Styl CSS Hoverbox dla Gallery2
 Name:		gallery-style-%{_style}
 Version:	1
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Super light-weight (8kB) roll-over photo gallery that uses nothing but
 CSS.
 
-%description -l pl
-Bardzo lekka (8kB) galeria fotografii u¿ywaj±ca wy³±cznie CSS-a.
+%description -l pl.UTF-8
+Bardzo lekka (8kB) galeria fotografii uÅ¼ywajÄ…ca wyÅ‚Ä…cznie CSS-a.
 
 %prep
 %setup -q -n %{_style}
